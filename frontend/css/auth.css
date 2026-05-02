@@ -1,0 +1,94 @@
+/* auth.css */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', system-ui, sans-serif;
+    background: #0F0F0F;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    background: #161616;
+    padding: 50px 40px;
+    border-radius: 24px;
+    width: 100%;
+    max-width: 420px;
+    border: 1px solid #FFFFFF;
+}
+
+h1 {
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 8px;
+}
+
+.subtitle {
+    text-align: center;
+    color: #AAAAAA;
+    margin-bottom: 40px;
+}
+
+.input-group {
+    margin-bottom: 28px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    color: #CCCCCC;
+}
+
+input {
+    width: 100%;
+    padding: 16px 20px;
+    background: #222;
+    border: 1px solid #444;
+    border-radius: 12px;
+    color: white;
+    font-size: 16px;
+}
+
+input:focus {
+    border-color: #FF69B4;
+    outline: none;
+}
+
+.btn {
+    width: 100%;
+    padding: 17px;
+    background: white;
+    color: black;
+    font-size: 17px;
+    font-weight: bold;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background: #f0f0f0;
+}
+
+.switch {
+    text-align: center;
+    margin-top: 35px;
+    color: #AAAAAA;
+}
+
+.switch a {
+    color: #FF69B4;
+    text-decoration: none;
+}
+
+.error {
+    color: #FF4444;
+    text-align: center;
+    margin-top: 15px;
+}
